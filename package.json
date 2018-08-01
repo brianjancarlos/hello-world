@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Sample Repo",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianjancarlos/hello-world.git"
+  },
+  "author": "Brian Jan Carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianjancarlos/hello-world/issues"
+  },
+  "homepage": "https://github.com/brianjancarlos/hello-world#readme"
+}
