@@ -1,6 +1,7 @@
 FROM node:alpine
 WORKDIR /usr/src/app
-ADD . .
+COPY package*.json ./
 RUN npm ci
+COPY . .
 EXPOSE 8080 
 ENTRYPOINT [ "node","server.js" ]
